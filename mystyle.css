@@ -1,0 +1,178 @@
+.example::-webkit-scrollbar {
+    display: none;
+  }
+.example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+}
+
+li, button, h1, h2, p{
+    font-family: 'Inconsolata', monospace;
+}
+a{
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+    height: 50px;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.list__items{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#lia {
+    transition: all 0.3s ease 0s;
+}
+
+#lia:hover{
+    color: rosybrown;
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
+}
+
+button:hover{
+    padding: 9px 25px;
+    background-color: rosybrown;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;  
+}
+
+.about{
+    text-align: center;
+}
+
+model-viewer{
+    animation: fadeIn 2s;
+    width: 300px;
+    height: 300px;
+}
+.model3d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.work hr{
+    width: 5%;
+    height: 3px;
+    background-color: rosybrown;
+    border: none;
+}
+
+.bio{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.bio hr{
+    width: 5%;
+    height: 3px;
+    background-color: rosybrown;
+    border: none;
+}
+
+.self{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 3px rosybrown solid;
+    margin: 0, auto;
+}
+
+.projects{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.projects hr{
+    width: 5%;
+    height: 3px;
+    background-color: rosybrown;
+    border: none;
+}
+
+.pimages{
+    width: 40%;
+    height: 40%;
+    border-radius: 5%;
+    border: 3px rosybrown solid;
+    margin: 0, auto;
+}
+
+.ptext{
+    color: #f1f1f1;
+    transition: all 0.3s ease 0s;  
+}
+
+.ptext:hover{
+    color: rosybrown;
+    transition: all 0.3s ease 0s;  
+}
+
+.btt {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 20px;
+    color: #f1f1f1;
+    transition: all 0.3s ease 0s;  
+  }
+.btt:hover {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 20px;
+    color: rosybrown;
+    transition: all 0.3s ease 0s;  
+  }
+
+@keyframes fadeIn{
+
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+}
