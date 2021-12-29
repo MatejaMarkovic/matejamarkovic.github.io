@@ -12,7 +12,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #1f1f1f;
+    background-color: #181922;
     color: #f1f1f1;
 }
 
@@ -37,6 +37,7 @@ header{
 }
 
 .nav__list{
+    position: fixed;
     text-align: center;
 }
 
@@ -56,6 +57,7 @@ header{
 }
 
 button{
+    position: fixed;
     padding: 9px 25px;
     background-color: #f1f1f1;
     border: none;
@@ -78,7 +80,6 @@ button:hover{
 }
 
 model-viewer{
-    animation: fadeIn 2s;
     width: 300px;
     height: 300px;
 }
@@ -167,13 +168,26 @@ model-viewer{
     transition: all 0.3s ease 0s;  
   }
 
-@keyframes fadeIn{
+.ilove{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.ilove hr{
+    width: 5%;
+    height: 3px;
+    background-color: rosybrown;
+    border: none;
+}
 
-    from{
-        opacity: 0%;
-    }
-
-    to{
-        opacity: 100%;
-    }
+.ontheweb{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.ontheweb hr{
+    width: 5%;
+    height: 3px;
+    background-color: rosybrown;
+    border: none;
 }
