@@ -14,10 +14,8 @@
     <title>Matteya's Portfolio</title>
 </head>
 <body class="example">
-    <div id="particles-js">
     <div id="btt"></div>
-    <br><br><br>
-        
+    <br><br><br> 
         <header>
             <nav>
                 <ul class="nav__list">
@@ -29,9 +27,12 @@
             <a class="cta" href="https://www.instagram.com/_matejamarkovic_/"><button class="contactbutton">Contact</button></a>
         </header><br><br>
         <div class="model3d">
-            <model-viewer src="Cubone.glb" camera-controls auto-rotate auto-rotate-delay="0" disable-zoom rotation-per-second="400%"></model-viewer>
+            <model-viewer src="Cubone.glb" auto-rotate auto-rotate-delay="0" disable-zoom rotation-per-second="400%">
+                <div class="poster" slot="poster"></div>
+                <div class="poster" slot="progress-bar"></div>
+            </model-viewer>
         </div>
-        <p class="welcome">Welcome, I am a full-stack developer!</p>
+        <p class="welcome">Welcome, I am a full-stack web developer!</p>
         <div class="about" id="about">
             <br>
             <br>
@@ -61,8 +62,8 @@
         </div><br><br><br>
         <div class="ilove" id="ilove">
             <h2>I <span style="color: #6bb99f">♥</span></h2>
-            <p>Music, Movies, Photography, Skiing, Martial Arts, Video Games</p>
             <hr>
+            <p>Music, Movies, Photography, Skiing, Martial Arts, Video Games</p>
         </div><br><br><br>
         <div class="projects" id="projects">
             <h2>Projects</h2>
@@ -84,8 +85,5 @@
         </div><br><br><br><br>
         <a href="#btt" class="btt">Back to top...</a>
         <p class="copyright">© 2021 Mateja Markovic. All Rights Reserved.</p>
-
-
-    </div>
 </body>
 </html>
