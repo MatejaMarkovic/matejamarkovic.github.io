@@ -55,7 +55,7 @@ header{
     transition: all 0.3s ease 0s;
 }
 
-button{
+.contactbutton{
     position: fixed;
     padding: 9px 25px;
     background-color: rgb(107, 185, 159);
@@ -79,15 +79,14 @@ button:hover{
 }
 
 model-viewer{
-    --poster-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 .model3d{
-    --poster-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .work{
@@ -95,19 +94,14 @@ model-viewer{
     margin: auto;
     text-align: center;
 }
-.work hr{
-    width: 5%;
-    height: 3px;
-    background-color: rosybrown;
-    border: none;
-}
 
 .bio{
     width: 30%;
     margin: auto;
     text-align: center;
 }
-.bio hr{
+
+hr{
     width: 5%;
     height: 3px;
     background-color: rosybrown;
@@ -115,8 +109,8 @@ model-viewer{
 }
 
 .self{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 3px rosybrown solid;
     text-align: center;
@@ -127,18 +121,12 @@ model-viewer{
     margin: auto;
     text-align: center;
 }
-.projects hr{
-    width: 5%;
-    height: 3px;
-    background-color: rosybrown;
-    border: none;
-}
 
 .pimages{
     width: 40%;
     height: 40%;
     border-radius: 5%;
-    border: 3px rosybrown solid;
+    border: 3px #6bb99f solid;
     margin: 0, auto;
 }
 
@@ -179,25 +167,13 @@ model-viewer{
     margin: auto;
     text-align: center;
 }
-.ilove hr{
-    width: 5%;
-    height: 3px;
-    background-color: rosybrown;
-    border: none;
-}
 
 .ontheweb{
     width: 30%;
     margin: auto;
     text-align: center;
 }
-.ontheweb hr{
-    width: 5%;
-    height: 3px;
-    background-color: rosybrown;
-    border: none;
-}
-  
+
   .fa:hover {
       opacity: 0.7;
   }
@@ -237,6 +213,12 @@ model-viewer{
         align-items: center;
         padding: 30px 10%;
     }
+    hr{
+        width: 50px;
+        height: 3px;
+        background-color: rosybrown;
+        border: none;
+    }
   }
 
 .copyright{
@@ -251,20 +233,23 @@ model-viewer{
     border-radius: 15px;
     display:inline-block;
     position:relative;
+    font-size: large;
     left:50%;
     transform:translateX(-50%);
     transition: all 0.5s;
 }
 
-.welcome:hover{
-    background-color: rgba(128, 128, 128, 0.3);
-    text-align: center;
-    padding: 10px;
-    border-radius: 15px;
-    border: rosybrown 5px solid;
-    display:inline-block;
-    position:relative;
-    left:50%;
-    transform:translateX(-50%);
-    transition: all 0.5s;
+.poster{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(107, 185, 159, 0.0);
+}
+
+.clickme{
+    padding: 9px 25px;
+    background-color: rgb(107, 185, 159);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
 }
