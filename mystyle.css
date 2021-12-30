@@ -32,10 +32,7 @@ header{
     align-items: center;
     padding: 30px 10%;
 }
-.logo {
-    cursor: pointer;
-    height: 50px;
-}
+
 
 .nav__list{
     backdrop-filter: blur(5px);
@@ -61,7 +58,7 @@ header{
 button{
     position: fixed;
     padding: 9px 25px;
-    background-color: #f1f1f1;
+    background-color: rgb(107, 185, 159);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -122,7 +119,7 @@ model-viewer{
     height: 250px;
     border-radius: 50%;
     border: 3px rosybrown solid;
-    margin: 0, auto;
+    text-align: center;
 }
 
 .projects{
@@ -147,11 +144,16 @@ model-viewer{
 
 .ptext{
     color: #f1f1f1;
+    padding: 5px;
+    border-radius: 10px;
     transition: all 0.3s ease 0s;  
 }
 
 .ptext:hover{
-    color: rosybrown;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(188, 143, 143, 03);
     transition: all 0.3s ease 0s;  
 }
 
@@ -201,7 +203,7 @@ model-viewer{
   }
   
   .icon{
-    color: rgb(147, 238, 208);
+    color: #6bb99f;
     border-radius: 15px;
     padding: 5px;
     transition: all 0.5s;
@@ -209,9 +211,60 @@ model-viewer{
 
   .icon:hover{
     border-radius: 10px;
-    background-color: rgba(147, 238, 208, 0.3);
+    background-color: rgba(107, 185, 159, 0.3);
     padding: 5px;
     transition: all 0.5s;
   }
 
   @keyframes fadeIn{from{opacity:1}to{opacity:0}}
+
+
+  @media only screen and (max-width: 800px){
+    .contactbutton{
+        opacity: 0;
+    }
+
+    .self{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px rosybrown solid;
+    margin: 0,auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+    }
+  }
+
+.copyright{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.welcome{
+    background-color: rgba(128, 128, 128, 0.3);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    transition: all 0.5s;
+}
+
+.welcome:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: rosybrown 5px solid;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    transition: all 0.5s;
+}
