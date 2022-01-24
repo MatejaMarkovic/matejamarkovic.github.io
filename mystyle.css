@@ -199,7 +199,12 @@ hr{
   @media only screen and (max-width: 800px){
 
 
-
+    hr{
+        width: 10%;
+        height: 3px;
+        background-color: rosybrown;
+        border: none;
+    }
     .projects{
         width: 70%;
         margin: auto;
