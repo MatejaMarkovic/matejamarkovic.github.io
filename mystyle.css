@@ -200,6 +200,28 @@ hr{
     .contactbutton{
         opacity: 0;
     }
+    .ilove{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    }
+    .work{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    }
+
+    .bio{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    }
+
+.ontheweb{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
 
     .self{
     width: 100px;
