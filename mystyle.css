@@ -168,6 +168,16 @@ hr{
     margin: auto;
     text-align: center;
 }
+#wtext{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#btext{
+    text-align: center;
+
+}
 
 .ontheweb{
     width: 30%;
