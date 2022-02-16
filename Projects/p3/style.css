@@ -1,0 +1,270 @@
+
+  body::-webkit-scrollbar {
+      display: none;
+  }
+.fa{
+    margin-right: 10px;
+}
+  html, body{
+    overflow-y: scroll; /* Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0px;
+    height: 100%;
+    margin: 0px;
+}
+.constrain{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    margin: 0px;
+}
+.headerimg{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    box-shadow: 0px 15px 40px -15px #111;  
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.buybutton{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3vw;
+    border: 1px solid black;
+    border-radius: 75px;
+    background-color: black;
+    height: 5%;
+    font-weight: bold;
+    text-align: center;
+    width: 15%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 20px black;
+    transition: all 0.5s;
+}
+
+.buybutton:hover{
+    font-size: 1.5vw;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 40px 10px black;
+}
+
+.responsiveMedia{
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    height: 0;
+    overflow: hidden;
+    left: 0; 
+    right: 0;
+    bottom: 0; 
+    margin-bottom: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.responsiveMedia iframe{
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin-bottom: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+h2{
+    font-size: 1.6vw;
+    margin: 25px 0px 0px 0px;
+    padding:0px;
+}
+h3{
+    font-size: 1.2vw;
+    margin: 10px 0px 0px 0px;
+    padding:0px;
+    color: #7e7e7e;
+}
+.icon{
+    font-size: 3vw;
+    color: #1f1f1f;
+    border-radius: 15px;
+    padding: 5px;
+    transition: all 0.5s;
+  }
+
+  .icon:hover{
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    padding: 5px;
+    transition: all 0.5s;
+  }
+
+.list{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    width: 40px;
+    text-align: center;
+    padding: 35px;
+    background: rgb(0, 0, 0);
+    border: 3px solid #000;
+    color: #f1f1f1;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin: 2% auto;
+}
+.pfp{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
+}
+.hdiw{
+    font-size: 1.2vw;
+}
+.footer{
+    font-size: 0.8vw;
+}
+.form{
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 50px;
+    width: 20%;
+    height: 50px
+}
+
+@media only screen and (max-width: 800px){
+    .buybutton{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.3vw;
+        border: 1px solid black;
+        border-radius: 75px;
+        background-color: black;
+        height: 3%;
+        font-weight: bold;
+        text-align: center;
+        width: 15%;
+        margin-top: 3%;
+        box-shadow: 0px 0px 20px black;
+        transition: all 0.5s;
+    }
+    
+    .buybutton:hover{
+        font-size: 1.6vw;
+        transition: all 0.5s;
+        box-shadow: 0px 0px 40px 10px black;
+    }
+    html, body{
+        background-color: #f1f1f1;
+        color: #1f1f1f;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding: 0px;
+        height: 100%;
+        margin: 0px;
+    }
+    .constrain{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    .headerimg{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        box-shadow: 0px 15px 40px -15px #111;  
+    }
+    
+    a{
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+    
+    h2{
+        font-size: 1.6vw;
+        margin: 25px 0px 0px 0px;
+        padding:0px;
+    }
+    h3{
+        font-size: 1.2vw;
+        margin: 10px 0px 0px 0px;
+        padding:0px;
+        color: #7e7e7e;
+    }
+    .list{
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px black;
+        width: 40px;
+        text-align: center;
+        padding: 35px;
+        background: rgb(0, 0, 0);
+        border: 3px solid #000;
+        color: #f1f1f1;
+        text-align: center;
+        font: 32px Arial, sans-serif;
+        margin: 2% auto;
+    }
+    .hdiw{
+        font-size: 1.2vw;
+    }
+    .footer{
+        font-size: 0.8vw;
+    }
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
