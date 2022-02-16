@@ -1,0 +1,23 @@
+.board {
+    width: 400px;
+    margin: auto
+}
+
+.info {
+    width: 400px;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+a, h1, h2, label, span{
+    color:#f1f1f1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
