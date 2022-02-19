@@ -213,6 +213,41 @@ hr{
 
 
   @media only screen and (max-width: 800px){
+
+
+    hr{
+        width: 10%;
+        height: 3px;
+        background-color: rosybrown;
+        border: none;
+    }
+    .projects{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .ontheweb{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .ilove{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .work{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .bio{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
     .contactbutton{
         opacity: 0;
     }
@@ -282,6 +317,8 @@ hr{
         transition: all 0.5s;  
       }
     
+
+
   }
 
 .copyright{
