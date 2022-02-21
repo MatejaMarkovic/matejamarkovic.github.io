@@ -209,11 +209,65 @@ hr{
     transition: all 0.5s;
   }
 
+  .copyright{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.welcome{
+    background-color: rgba(128, 128, 128, 0.3);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    display:inline-block;
+    position:relative;
+    font-size: large;
+    left:50%;
+    transform:translateX(-50%);
+    transition: all 0.5s;
+}
+
+.poster{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(107, 185, 159, 0.0);
+}
+
+.clickme{
+    padding: 9px 25px;
+    background-color: rgb(107, 185, 159);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
+}
+
   @keyframes fadeIn{from{opacity:1}to{opacity:0}}
 
+  @media only screen and (max-width: 500px){
+    .translate{
+        display: none;
+      }
+    .nav__list{
+        position: absolute;
+        text-align: center;
+        left: 0px;
+        margin-left: 0px;
+    }
+}
 
+  @media only screen and (max-width: 620px){
+      .translate{
+        display: none;
+      }
+      .nav__list{
+          position: absolute;
+          text-align: center;
+          left: 100px;
+      }
+      
+  }
   @media only screen and (max-width: 800px){
-
 
     hr{
         width: 10%;
@@ -268,11 +322,11 @@ hr{
     text-align: center;
     }
 
-.ontheweb{
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
+    .ontheweb{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
 
     .self{
     width: 100px;
@@ -293,6 +347,7 @@ hr{
         display: inline-block;
         padding: 0px 20px;
         text-align: center;
+        margin: 0 auto;
     }
     .btt {
         position: fixed;
@@ -320,36 +375,3 @@ hr{
 
 
   }
-
-.copyright{
-    text-align: center;
-    opacity: 0.5;
-}
-
-.welcome{
-    background-color: rgba(128, 128, 128, 0.3);
-    text-align: center;
-    padding: 10px;
-    border-radius: 15px;
-    display:inline-block;
-    position:relative;
-    font-size: large;
-    left:50%;
-    transform:translateX(-50%);
-    transition: all 0.5s;
-}
-
-.poster{
-    width: 250px;
-    height: 250px;
-    background-color: rgba(107, 185, 159, 0.0);
-}
-
-.clickme{
-    padding: 9px 25px;
-    background-color: rgb(107, 185, 159);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;   
-}
